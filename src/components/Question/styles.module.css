@@ -1,0 +1,29 @@
+.question {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.question h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+}
+
+.option {
+  margin: 10px 0;
+}
+
+.option input {
+  margin-right: 10px;
+}
